@@ -51,19 +51,26 @@ if (command === "concert-this") {
 
 // search bandsintown
 function concertThis(query) {
+    if(!query){
+        query = "Wu-Tang";
+    }
     axios.get("https://rest.bandsintown.com/artists/" + query + "/events?app_id=codingbootcamp")
     .then(function(response) {   
-        
         for (var i = 0; i < 5; i++) { 
             var concertThisResults =
-                "**********************************************************" +
                 "\nLineup: " + response.data[i].lineup +
                 "\nVenue: " + response.data[i].venue.name +
                 "\nCity: " + response.data[i].venue.city +
-                "\nDate: " + (moment(response.data[i].datetime).format("MM/DD/YYYY"))
+                "\nDate: " + (moment(response.data[i].datetime).format("MM/DD/YYYY")) + "\n" +
+                "\n**********************************************************";
             console.log(concertThisResults);
-            
-    }})
+            fs.appendFile("log.txt", concertThisResults, function(error) {
+                if (error) {
+                  return console.log(error);
+                } 
+            });
+        }   
+    })
     .catch(function (error) {
         console.log(error);
     });
@@ -79,12 +86,17 @@ function spotifyThisSong(query) {
     .then(function(response) {
         for (var i = 0; i < 5; i++) {
             var spotifyResults = 
-                "**********************************************************" +
                 "\nArtist: " + response.tracks.items[i].artists[0].name + 
                 "\nSong Name: " + response.tracks.items[i].name +
                 "\nAlbum Name: " + response.tracks.items[i].album.name +
-                "\nPreview Link: " + response.tracks.items[i].preview_url;
+                "\nPreview Link: " + response.tracks.items[i].preview_url + "\n" +
+                "\n**********************************************************";
             console.log(spotifyResults);
+            fs.appendFile("log.txt", spotifyResults, function(error) {
+                if (error) {
+                  return console.log(error);
+                } 
+            });
         }
     })
     .catch(function(error) {
@@ -99,28 +111,34 @@ function movieThis(query) {
     }
     axios.get("https://www.omdbapi.com/?t=" + query + "&y=&plot=short&apikey=trilogy")
     .then(function(response) {
-            var movieResults = 
-                "**********************************************************" +
-                "\nMovie Title: " + response.data.Title + 
-                "\nYear of Release: " + response.data.Year +
-                "\nIMDB Rating: " + response.data.imdbRating +
-                "\nRotten Tomatoes Rating: " + response.data.Ratings[1].Value +
-                "\nCountry Produced: " + response.data.Country +
-                "\nLanguage: " + response.data.Language +
-                "\nPlot: " + response.data.Plot +
-                "\nCast: " + response.data.Actors;
-            console.log(movieResults);
+        var movieResults = 
+            "**********************************************************\n" +
+            "\nMovie Title: " + response.data.Title + 
+            "\nYear of Release: " + response.data.Year +
+            "\nIMDB Rating: " + response.data.imdbRating +
+            "\nRotten Tomatoes Rating: " + response.data.Ratings[1].Value +
+            "\nCountry Produced: " + response.data.Country +
+            "\nLanguage: " + response.data.Language +
+            "\nPlot: " + response.data.Plot +
+            "\nCast: " + response.data.Actors + "\n" +
+            "\n**********************************************************";
+        console.log(movieResults);
+        fs.appendFile("log.txt", movieResults, function(error) {
+            if (error) {
+              return console.log(error);
+            } 
+        });
     })
     .catch(function (error) {
         console.log(error);
     });
 }
 
-// read 
+// read random.txt and execute commands
 function doWhat() {
 
     fs.readFile('random.txt', "utf8", function(error, data){
-   
+
         if (error) {
            return console.log(error);
         }
