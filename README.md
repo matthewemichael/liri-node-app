@@ -1,16 +1,25 @@
 # LIRI Node App
 
+- - -
+
 ### Overview
 
 In this assignment, I made LIRI. LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives you back data.
 
-### Function
 liri.js can take in one of the following commands:
 
-* concert-this
-* spotify-this-song
-* movie-this
-* do-what-it-says
+   * `concert-this`
+   * `spotify-this-song`
+   * `movie-this`
+   * `do-what-it-says`
+   
+- - -
+
+### Function
+
+* Open your terminal such as Bash.
+* Navigate to the folder that contains the `liri.js` file.
+* Type one of the following commands...
 
 1. `node liri.js concert-this <artist/band name here>`
 
@@ -58,27 +67,32 @@ It's on Netflix!
 
 * LIRI will take the text inside of `random.txt` and then use it to call one of LIRI's commands.
 
+- - -
+
 ### Bonus Features
 * In addition to logging the data to the terminal/bash window, it is also outputted to a file called `log.txt`.
   * Each command is appended to the `log.txt` file and does not overwrite the file.
 * If invalid user input is detected a help message is displayed providing the accepted commands.
   * Use of vm module to execute code from a separate `help.js` file.
 
+- - -
+
 ### Technologies Used
 
 * [JavaScript](https://www.javascript.com)
 * [Node.Js](https://nodejs.org/en/)
-* APIs:
-  * [Bands In Town API](http://www.artists.bandsintown.com/bandsintown-api)
-  * [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)
-  * [OMDB API](http://www.omdbapi.com)
 * Node Packages
   * [Axios](https://www.npmjs.com/package/axios)
   * [Moment](https://www.npmjs.com/package/moment)
   * [DotEnv](https://www.npmjs.com/package/dotenv)
   * [Colors](https://www.npmjs.com/package/colors)
+* APIs:
+  * [Bands In Town API](http://www.artists.bandsintown.com/bandsintown-api)
+  * [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)
+  * [OMDB API](http://www.omdbapi.com)
 
 
+- - -
 ### Note
 * If you want to clone this app from github and run it yourself, you would need to supply your own `.env` file for it to work. This file should have the content below.
 
