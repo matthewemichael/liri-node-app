@@ -47,7 +47,12 @@ if (command === "concert-this") {
     var data = fs.readFileSync("./help.js");
     const script = new vm.Script(data);
     script.runInThisContext();
+} else if (command !== "concert-this" || "spotify-this-song" || "movie-this" || "do-what-it-says") {
+    var data = fs.readFileSync("./help.js");
+    const script = new vm.Script(data);
+    script.runInThisContext();
 }
+
 
 // search bandsintown
 function concertThis(query) {
