@@ -36,7 +36,13 @@ if (command === "concert-this") {
 } else if 
     (command === "spotify-this-song") {
     spotifyThisSong(query);
+} else if
+    (command === "movie-this") {
+    movieThis(query);       
 } else if 
+    (command === "do-what-it-says") {
+    doWhat()
+} else if
     (command === undefined && query === undefined) {
     var data = fs.readFileSync("./help.js");
     const script = new vm.Script(data);
@@ -65,9 +71,11 @@ function concertThis(query) {
 
 // search spotify
 function spotifyThisSong(query) {
+    if(!query){
+        query = "ace of base the sign";
+    }
     spotify
     .search({ type: 'track', query: query })
-    
     .then(function(response) {
         for (var i = 0; i < 5; i++) {
             var spotifyResults = 
@@ -83,3 +91,51 @@ function spotifyThisSong(query) {
         console.log(error);
     });
 };
+
+// search omdb
+function movieThis(query) {
+    if(!query){
+        query = "Mr. Nobody";
+    }
+    axios.get("https://www.omdbapi.com/?t=" + query + "&y=&plot=short&apikey=trilogy")
+    .then(function(response) {
+            var movieResults = 
+                "**********************************************************" +
+                "\nMovie Title: " + response.data.Title + 
+                "\nYear of Release: " + response.data.Year +
+                "\nIMDB Rating: " + response.data.imdbRating +
+                "\nRotten Tomatoes Rating: " + response.data.Ratings[1].Value +
+                "\nCountry Produced: " + response.data.Country +
+                "\nLanguage: " + response.data.Language +
+                "\nPlot: " + response.data.Plot +
+                "\nCast: " + response.data.Actors;
+            console.log(movieResults);
+    })
+    .catch(function (error) {
+        console.log(error);
+    });
+}
+
+// read 
+function doWhat() {
+
+    fs.readFile('random.txt', "utf8", function(error, data){
+   
+        if (error) {
+           return console.log(error);
+        }
+
+        var dataArr = data.split(",");
+       
+        if (dataArr[0] === "spotify-this-song") {
+            spotifyThisSong(dataArr[1]);
+        } 
+        if (dataArr[2] === "movie-this") {
+            movieThis(dataArr[3]);
+        }    
+        if (dataArr[4] === "concert-this") {
+            concertThis(dataArr[5]);
+        }
+    });   
+};
+   
