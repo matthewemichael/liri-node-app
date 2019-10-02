@@ -569,3 +569,171 @@ Plot: A boy stands on a station platform as a train is about to leave. Should he
 Cast: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
 
 **********************************************************
+Lineup: Tim and Eric
+Venue: Austin City Limits Live at The Moody Theater
+City: Austin
+Date: 01/31/2020
+
+**********************************************************
+Lineup: Tim and Eric
+Venue: Lincoln Theatre
+City: Washington
+Date: 02/08/2020
+
+**********************************************************
+Lineup: Tim and Eric
+Venue: Vogue Theatre
+City: Vancouver
+Date: 02/29/2020
+
+**********************************************************
+Artist: Michael Jackson
+Song Name: Black or White
+Album Name: Dangerous
+Preview Link: https://p.scdn.co/mp3-preview/7685001a08ad8903a2c14f1fbb0834c6904a65a3?cid=81c40c7768a042fea6100898e0973938
+
+**********************************************************
+Artist: Michael Jackson
+Song Name: Black or White - Remastered Version
+Album Name: Michael Jackson's This Is It
+Preview Link: https://p.scdn.co/mp3-preview/34f1251204d3e6563bc6fa51421cf648e1a3a0a2?cid=81c40c7768a042fea6100898e0973938
+
+**********************************************************
+Artist: Michael Jackson
+Song Name: Black or White - Single Version
+Album Name: Number Ones
+Preview Link: https://p.scdn.co/mp3-preview/248608dda1601dc88d67b89cd380ab01127a12ec?cid=81c40c7768a042fea6100898e0973938
+
+**********************************************************
+Artist: Michael Jackson
+Song Name: Black or White
+Album Name: HIStory - PAST, PRESENT AND FUTURE - BOOK I
+Preview Link: https://p.scdn.co/mp3-preview/313cf28d6809b7eb543ee726e7848db25b5ac99a?cid=81c40c7768a042fea6100898e0973938
+
+**********************************************************
+Artist: Michael Jackson
+Song Name: Black or White - Single Version
+Album Name: The Essential Michael Jackson
+Preview Link: https://p.scdn.co/mp3-preview/2b6e89f6ad480deed492b01d5a63aabeaa6af1ff?cid=81c40c7768a042fea6100898e0973938
+
+**********************************************************
+Lineup: Tyler Childers
+Venue: Zilker Metropolitan Park
+City: Austin
+Date: 10/04/2019
+
+**********************************************************
+Lineup: Tyler Childers
+Venue: Zilker Metropolitan Park
+City: Austin
+Date: 10/11/2019
+
+**********************************************************
+Lineup: Tyler Childers
+Venue: Fayetteville Town Square
+City: Fayetteville
+Date: 10/07/2019
+
+**********************************************************
+Lineup: Tyler Childers
+Venue: Cain's Ballroom
+City: Tulsa
+Date: 10/08/2019
+
+**********************************************************
+Lineup: Tyler Childers
+Venue: Global Event Center at WinStar World Casino and Resort
+City: Thackerville
+Date: 10/05/2019
+
+**********************************************************
+Artist: No Bragging Rights
+Song Name: Living on a Prayer
+Album Name: Living on a Prayer - Single
+Preview Link: https://p.scdn.co/mp3-preview/e223d4faf0cd802befe5ed6f4242c4d940236bb6?cid=81c40c7768a042fea6100898e0973938
+
+**********************************************************
+Artist: Dewald Dippenaar
+Song Name: Bon Jovi Medley: Living on a Prayer / You Give Love a Bad Name / It's My Life
+Album Name: Een Uit 'n Miljoen
+Preview Link: https://p.scdn.co/mp3-preview/f1575a5e88203c7a73607f099a430adaf8a6c622?cid=81c40c7768a042fea6100898e0973938
+
+**********************************************************
+Artist: La Curva
+Song Name: Living On a Prayer
+Album Name: Passione bianconera
+Preview Link: https://p.scdn.co/mp3-preview/9723753a78e09141ea407b5fc3470a54de7f1801?cid=81c40c7768a042fea6100898e0973938
+
+**********************************************************
+Artist: Plies
+Song Name: Living On A Prayer
+Album Name: Da Last Real N*gga Left 2
+Preview Link: https://p.scdn.co/mp3-preview/1e387014b17b21b57febe1c09af5fc8aeabedd83?cid=81c40c7768a042fea6100898e0973938
+
+**********************************************************
+Artist: The Lights
+Song Name: Living On a Prayer
+Album Name: Rock On the Road
+Preview Link: https://p.scdn.co/mp3-preview/859666efb6152816fd67ed40131be4e342ba51b3?cid=81c40c7768a042fea6100898e0973938
+
+**********************************************************
+Artist: Bon Jovi
+Song Name: Livin' On A Prayer
+Album Name: Slippery When Wet
+Preview Link: null
+
+**********************************************************
+Artist: Midtown Stories
+Song Name: Livin' on a Prayer
+Album Name: Worthwhile
+Preview Link: https://p.scdn.co/mp3-preview/103a21cb53abde5280702b6680953b464317e707?cid=81c40c7768a042fea6100898e0973938
+
+**********************************************************
+Artist: Black Power
+Song Name: Livin' on a Prayer
+Album Name: I Love Rock
+Preview Link: https://p.scdn.co/mp3-preview/f03e671f54d1e32efd3ad3bc879700b32bf543e5?cid=81c40c7768a042fea6100898e0973938
+
+**********************************************************
+Artist: Glee Cast
+Song Name: Start Me Up / Livin' On A Prayer (Glee Cast Version)
+Album Name: Start Me Up / Livin' On A Prayer (Glee Cast Version)
+Preview Link: https://p.scdn.co/mp3-preview/2fe9240b4f2120ef8843f1340ea9ad810e553c81?cid=81c40c7768a042fea6100898e0973938
+
+**********************************************************
+Artist: Rockabye Baby!
+Song Name: Livin' on a Prayer
+Album Name: Lullaby Renditions of Bon Jovi
+Preview Link: https://p.scdn.co/mp3-preview/3126e3020ee03c52d64e522b213f625db0760de3?cid=81c40c7768a042fea6100898e0973938
+
+**********************************************************
+Artist: Bon Jovi
+Song Name: Livin' On A Prayer
+Album Name: Slippery When Wet
+Preview Link: null
+
+**********************************************************
+Artist: Midtown Stories
+Song Name: Livin' on a Prayer
+Album Name: Worthwhile
+Preview Link: https://p.scdn.co/mp3-preview/103a21cb53abde5280702b6680953b464317e707?cid=81c40c7768a042fea6100898e0973938
+
+**********************************************************
+Artist: Rockabye Baby!
+Song Name: Livin' on a Prayer
+Album Name: Lullaby Renditions of Bon Jovi
+Preview Link: https://p.scdn.co/mp3-preview/3126e3020ee03c52d64e522b213f625db0760de3?cid=81c40c7768a042fea6100898e0973938
+
+**********************************************************
+Artist: Glee Cast
+Song Name: Start Me Up / Livin' On A Prayer (Glee Cast Version)
+Album Name: Start Me Up / Livin' On A Prayer (Glee Cast Version)
+Preview Link: https://p.scdn.co/mp3-preview/2fe9240b4f2120ef8843f1340ea9ad810e553c81?cid=81c40c7768a042fea6100898e0973938
+
+**********************************************************
+Artist: Black Power
+Song Name: Livin' on a Prayer
+Album Name: I Love Rock
+Preview Link: https://p.scdn.co/mp3-preview/f03e671f54d1e32efd3ad3bc879700b32bf543e5?cid=81c40c7768a042fea6100898e0973938
+
+**********************************************************
