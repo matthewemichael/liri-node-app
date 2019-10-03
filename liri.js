@@ -56,7 +56,7 @@ function concertThis(query) {
     }
     axios.get("https://rest.bandsintown.com/artists/" + query + "/events?app_id=codingbootcamp")
     .then(function(response) {   
-        for (var i = 0; i < 5; i++) { 
+        for (var i = 0; i < 10; i++) { 
             var concertThisResults =
                 "\nLineup: " + response.data[i].lineup +
                 "\nVenue: " + response.data[i].venue.name +
@@ -84,7 +84,7 @@ function spotifyThisSong(query) {
     spotify
     .search({ type: 'track', query: query })
     .then(function(response) {
-        for (var i = 0; i < 5; i++) {
+        for (var i = 0; i < 10; i++) {
             var spotifyResults = 
                 "\nArtist: " + response.tracks.items[i].artists[0].name + 
                 "\nSong Name: " + response.tracks.items[i].name +
