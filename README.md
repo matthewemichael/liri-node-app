@@ -30,6 +30,9 @@ liri.js can take in one of the following commands:
     - Venue location
     - Date of the Event (use moment to format this as "MM/DD/YYYY")
     ```
+    
+![concert-this](images/concert-this.gif)     
+    
 
 2. `node liri.js spotify-this-song '<song name here>'`
 
@@ -42,6 +45,7 @@ liri.js can take in one of the following commands:
     ```
 * If no song is provided then your program will default to "The Sign" by Ace of Base.
 
+![spotify-this-song](images/spotify-this-song.gif)  
 
 3. `node liri.js movie-this '<movie name here>'`
 
@@ -62,18 +66,26 @@ liri.js can take in one of the following commands:
 If you haven't watched "Mr. Nobody," then you should: <http://www.imdb.com/title/tt0485947/>
 It's on Netflix!
 
+![movie-this](images/movie-this.gif)
 
 4. `node liri.js do-what-it-says`
 
 * LIRI will take the text inside of `random.txt` and then use it to call one of LIRI's commands.
+
+![do-what-it-says](images/do-what.gif)
 
 - - -
 
 ### Bonus Features
 * In addition to logging the data to the terminal/bash window, it is also outputted to a file called `log.txt`.
   * Each command is appended to the `log.txt` file and does not overwrite the file.
+  
+![logtxt](images/logtxt.gif)  
+  
 * If invalid user input is detected a help message is displayed providing the accepted commands.
   * Use of vm module to execute code from a separate `help.js` file.
+  
+![helpjs](images/helpjs.gif)
 
 - - -
 
